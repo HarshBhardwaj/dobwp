@@ -1,0 +1,19 @@
+{
+  "name": "reactwp",
+  "version": "1.0.0",
+  "description": "React web application",
+  "main": "index.js",
+  "engines": {
+    "node": "19.6.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "Harsh Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
